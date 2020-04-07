@@ -27,6 +27,7 @@ NORI_NAMESPACE_BEGIN
 
 Scene::Scene(const PropertyList &) {
     m_accel = new Accel();
+
 }
 
 Scene::~Scene() {

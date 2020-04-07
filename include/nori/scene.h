@@ -122,6 +122,7 @@ private:
     Sampler *m_sampler = nullptr;
     Camera *m_camera = nullptr;
     Accel *m_accel = nullptr;
+    //OctTree* m_octTree = nullptr;
 };
 
 NORI_NAMESPACE_END

@@ -62,6 +62,8 @@ public:
     /// Probability density of \ref squareToCosineHemisphere()
     static float squareToCosineHemispherePdf(const Vector3f &v);
 
+    static Point2f ConcentricSampleDisk(const Point2f& u);
+
     /// Warp a uniformly distributed square sample to a Beckmann distribution * cosine for the given 'alpha' parameter
     static Vector3f squareToBeckmann(const Point2f &sample, float alpha);
 
